@@ -1,0 +1,90 @@
+/* Color Sceme:
+	Dark Blue:   #144661
+	Light Blue:  #1FCFCC
+	Light Red:   #ED5C5F
+	Light Green: #7FF0B6
+*/
+
+body {
+	background-color: #144661;
+	font-family: 'Lato'; 
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	width: 1890px;
+	height: 1080px;
+	background-color: transparent;
+	background-image: url(portland.jpg);
+	filter: brightness(0.7);
+}
+
+div.welcome {
+	height: 1080px;
+	width: 1000px;
+	float: right;
+	position: relative;
+	background-color: rgba(161,69,69,.75);
+	filter: brightness(1);
+}
+
+div.welcome img {
+	position: absolute;
+	top: 200px;
+	left: 323px;
+}
+
+div.welcome h2 {
+	position: absolute;
+	text-align: center;
+	font-size: 60px;
+	top: 510px;
+	left: 280px;
+	color: white;
+}
+
+div.welcome a {
+	position: absolute;
+	text-align: center;
+	font-size: 60px;
+	top: 800px;
+	left: 350px;
+	color: white;
+	padding: 20px 50px;
+	border: 5px solid rgba(161,69,69,0.8);
+	background-color: hsla(160,0%,0%,0.4);
+	transition: 300ms;
+}
+
+div.welcome a:hover {
+	background-color: hsla(160,0%,0%,0.6);
+	transition: 300ms;
+}
+
+#info {
+	width: 100%;
+	height: 1080px;
+	background-color: transparent;
+	background-image: url(map.jpg);
+}
+
+#info p {
+	text-align: left;
+	width: 45%;
+	background-color: hsla(190,30%,20%,0.8);
+	padding: 20px;
+	margin: 20px;
+	font-size: 30px;
+	color: hsl(190,20%,70%);
+}
+
+#info img {
+	width: 35%;
+	height: auto;
+	margin: 30px;
+}
+
+
